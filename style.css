@@ -1,0 +1,41 @@
+body{
+    background-color:rosybrown;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: lightseagreen;
+}
+
+#show{
+    float: right;
+} 
+
+canvas{
+    margin-top: 100px;
+    border: 5px solid lightseagreen;
+    border-radius: 20px;
+    animation-name: cool;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cool{
+    from{box-shadow: 1px 1px 36px mediumvioletred;}
+    to{box-shadow: 1px 1px 36px rgb(0, 190, 159);}
+    }
+
+    p, span{
+        font-size: 25px;
+        font-family: inherit;
+        padding-top: 10px;
+    }
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+}
+#timer{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+}
